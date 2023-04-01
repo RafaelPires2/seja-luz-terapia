@@ -1,4 +1,4 @@
-import { createGlobalStyle } from "styled-components";
+import { createGlobalStyle } from 'styled-components';
 
 export const GlobalStyle = createGlobalStyle`
     * {
@@ -22,10 +22,10 @@ export const GlobalStyle = createGlobalStyle`
 
     ::-webkit-scrollbar{
     width: 10px;
-    background-color: $background-primary;
+    // background-color: $background-primary;
     }
     ::-webkit-scrollbar-thumb{
-        background-color: $color-point;
+   //     background-color: $color-point;
         border-radius: 2rem; 
 }
 
@@ -35,5 +35,7 @@ export const GlobalStyle = createGlobalStyle`
         list-style: none;
         color: inherit;
     }
-
+    body {
+        background-color: ${(props) => props.theme.bgPrimary};
+    }
 `;
