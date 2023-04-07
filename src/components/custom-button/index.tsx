@@ -1,15 +1,14 @@
-import { ButtonHTMLAttributes } from "react";
-import { ButtonContainer } from "./styles";
+import { ButtonHTMLAttributes } from 'react';
+import { ButtonContainer } from './styles';
 
 type ButtonTypeProps = ButtonHTMLAttributes<HTMLButtonElement>;
 
 type ButtonContainerProps = {
   width: string;
   height: string;
-  textColor: string;
+  textColor?: string;
   content: string;
-  variant: any;
-  type: "submit" | "button" | "reset";
+  type: 'submit' | 'button' | 'reset';
 } & ButtonTypeProps;
 
 export function CustomButton({
@@ -23,13 +22,7 @@ export function CustomButton({
 }: ButtonContainerProps) {
   return (
     <>
-      <ButtonContainer
-        width={width}
-        height={height}
-        textColor={textColor}
-        type={type}
-        {...props}
-      >
+      <ButtonContainer width={width} height={height} type={type} textColor={textColor} {...props}>
         {content}
       </ButtonContainer>
     </>
