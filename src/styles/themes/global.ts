@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components';
+import styled, { createGlobalStyle } from 'styled-components';
 
 export const GlobalStyle = createGlobalStyle`
     * {
@@ -29,13 +29,23 @@ export const GlobalStyle = createGlobalStyle`
         border-radius: 2rem; 
 }
 
-    body, input, textarea, button, a {
-        font-family: 'Roboto', sans-serif;
+    body, input, textarea, button, a, li{ 
+        font-family: 'Poppins', sans-serif;
         text-decoration: none;
         list-style: none;
         color: inherit;
     }
     body {
+        display: flex;
+        width: 100vw;
+        height: 100%;
+        justify-content: center;
         background-color: ${(props) => props.theme.bgPrimary};
     }
+`;
+
+export const Wrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  width: 80vw;
 `;
