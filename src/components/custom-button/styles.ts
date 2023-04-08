@@ -23,6 +23,7 @@ export const ButtonContainer = styled.button<ButtonContainerProps>`
   border-radius: 4px;
 
   font-size: 1.6rem;
+  font-weight: 600;
   padding: 1rem;
   cursor: pointer;
 
