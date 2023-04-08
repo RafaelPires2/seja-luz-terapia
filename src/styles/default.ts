@@ -15,5 +15,5 @@ export const MyTheme = {
   bgButton: '#CC43BF',
   bgButtonHover: '#B900A6',
 
-  margin: '6rem',
+  margin: '6.4rem',
 };

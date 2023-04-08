@@ -12,16 +12,16 @@ export function Header() {
         <MenuNavigation>
           <ul>
             <li>
-              <Link to='/'>INÍCIO</Link>
+              <a href='#'>INÍCIO</a>
             </li>
             <li>
-              <Link to='/about'>SERVIÇOS</Link>
+              <a href='#'>SERVIÇOS</a>
             </li>
             <li>
-              <Link to='/about'>DEPOIMENTOS</Link>
+              <a href='#'>DEPOIMENTOS</a>
             </li>
             <li>
-              <Link to='/about'>CONTATOS</Link>
+              <a href='#'>CONTATOS</a>
             </li>
           </ul>
         </MenuNavigation>

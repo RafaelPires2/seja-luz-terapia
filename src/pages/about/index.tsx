@@ -1,7 +1,10 @@
+import { Header } from '../header';
+
 export function About() {
-    return (
-      <>
-        <h1>About</h1>
-      </>
-    );
-  }
+  return (
+    <>
+      <Header />
+      <h1>About</h1>
+    </>
+  );
+}

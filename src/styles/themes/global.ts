@@ -40,12 +40,25 @@ export const GlobalStyle = createGlobalStyle`
         width: 100vw;
         height: 100%;
         justify-content: center;
+        align-items: center;
         background-color: ${(props) => props.theme.bgPrimary};
     }
 `;
 
-export const Wrapper = styled.div`
+export const Wrapper = styled.main`
+  width: 80vw;
   display: flex;
   flex-direction: column;
-  width: 80vw;
+  justify-content: center;
+  align-items: center;
+`;
+
+export const Title = styled.h1`
+  font-size: ${(props) => props.theme.sizeTitle};
+  color: ${(props) => props.theme.colorTitle};
+`;
+
+export const Paragraph = styled.p`
+  font-size: ${(props) => props.theme.sizeParagraph};
+  color: ${(props) => props.theme.colorParagraph};
 `;
