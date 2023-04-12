@@ -1,6 +1,7 @@
 import { CardService } from "../../components/card-service";
-import { ContainerCardService, ContainerCards, SectionCardService } from "../../components/card-service/styles";
+import { ContainerCards,  } from "../../components/card-service/styles";
 import { CustomButton } from "../../components/custom-button";
+import { ContainerCardService, SectionCardService } from "./styles";
 
 export function Services() {
     return (

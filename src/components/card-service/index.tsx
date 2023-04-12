@@ -1,5 +1,5 @@
 import { Wrapper } from '../../styles/themes/global';
-import { CardServiceContent, ContainerCardService, SectionCardService } from './styles';
+import { CardServiceContent } from './styles';
 
 interface CardServiceProps {
   image: string;

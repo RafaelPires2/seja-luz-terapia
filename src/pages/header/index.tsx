@@ -1,5 +1,3 @@
-import { Link } from 'react-router-dom';
-import { Wrapper } from '../../styles/themes/global';
 import { ContainerHeader, ContentHeader, MenuNavigation } from './styles';
 import { CustomButton } from '../../components/custom-button';
 

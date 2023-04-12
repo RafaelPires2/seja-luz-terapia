@@ -1,13 +1,10 @@
-import { ThemeProvider, DefaultTheme } from 'styled-components';
-import { BrowserRouter } from 'react-router-dom';
+import { ThemeProvider } from 'styled-components';
 import { GlobalStyle, Wrapper } from './styles/themes/global';
-import { Router } from './router';
 import { MyTheme } from './styles/default';
 import { Home } from './pages/home';
 import { Header } from './pages/header';
-import { CardService } from './components/card-service';
-import { ContainerCardService, ContainerCards, SectionCardService } from './components/card-service/styles';
 import { Services } from './pages/services';
+import { Evidence } from './pages/evidence';
 
 export function App() {
   return (
@@ -16,6 +13,7 @@ export function App() {
         <Header />
         <Home />
         <Services />
+        <Evidence />
       </Wrapper>
       <GlobalStyle />
     </ThemeProvider>

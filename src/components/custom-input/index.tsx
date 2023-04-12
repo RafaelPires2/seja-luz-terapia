@@ -3,7 +3,6 @@ import { InputContainer } from "./styles";
 
 interface CustomInputProps extends InputHTMLAttributes<HTMLInputElement> {}
 
-// capturar as mudanças usando register
 function CustomInputBase(
   { type, placeholder, ...props }: CustomInputProps,
   ref: any

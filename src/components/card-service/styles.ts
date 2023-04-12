@@ -1,28 +1,13 @@
 import styled from 'styled-components';
 
-export const SectionCardService = styled.section`
-  width: 100vw;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: ${(props) => props.theme.margin};
-`;
-export const ContainerCardService = styled.div`
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-
-  width: 80vw;
-`;
-
 export const ContainerCards = styled.div`
   display: flex;
   width: 100%;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  gap: 10px;
+  gap: 5%;
   margin-bottom: 32px;
+  padding-inline: 16px;
 `;
 
 export const CardServiceContent = styled.div`
@@ -43,8 +28,7 @@ export const CardServiceContent = styled.div`
     height: 200px;
     border-top-left-radius: 40px;
     border-top-right-radius: 6px;
-    border-bottom: 1px solid #ccc;
-    
+    border-bottom: 1px solid #ccc; 
   }
   div {
     padding: 20px 16px;
