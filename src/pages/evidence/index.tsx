@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import Carrousel from '../../components/carrousel';
 import { CustomButton } from '../../components/custom-button';
 import { Title } from '../../styles/themes/global';
-import { ContainerEvidence } from './styled';
+import { ContainerEvidence } from './styles';
 
 export function Testimonials() {
   return (
