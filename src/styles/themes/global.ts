@@ -46,7 +46,7 @@ export const GlobalStyle = createGlobalStyle`
 `;
 
 export const Wrapper = styled.main`
-  width: 80vw;
+  width: 60vw;
   display: flex;
   flex-direction: column;
   justify-content: center;

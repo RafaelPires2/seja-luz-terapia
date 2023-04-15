@@ -10,8 +10,10 @@ export function Home() {
           <ContentA>
             <Title>Lorem Ipsum</Title>
             <Paragraph>
-              Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o
-              século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos.
+              Me chamo Valéria; moro em São Paulo. Sou funcionária pública á 27 anos e ao longo da minha caminhada, escolhi especializar-me
+              em Terapia Holística. Sou Taróloga, Reikiana, Consteladora e possuo formação em outras terapias. Acredito que estamos aptos
+              para sempre buscarmos novos conhecimentos, a fim de termos mais ferramentas para poder auxiliar aqueles que necessitam. Minha
+              meta é ter uma vida mais leve e cheia de luz!
             </Paragraph>
             <CustomButton content='AGENDAR AGORA' height='58' width='290' type='button' textColor='white' />
           </ContentA>

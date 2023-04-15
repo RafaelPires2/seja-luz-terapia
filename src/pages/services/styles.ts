@@ -12,7 +12,7 @@ export const ContainerCardService = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 80vw;
+  width: 60vw;
 
   button {
     margin-top: 32px;
