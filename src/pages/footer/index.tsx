@@ -1,14 +1,13 @@
 import { Link } from 'react-router-dom';
 import { ContainerFooter, ContentFooter } from './styles';
 import { BsInstagram, BsWhatsapp } from 'react-icons/bs';
+import { Logo } from '../../components/logo';
 
 export function Footer() {
   return (
     <ContainerFooter id='footer'>
       <ContentFooter>
-        <div className='container-logo'>
-          <h1>Seja Luz</h1>
-        </div>
+        <Logo />
         <div className='container-navigation'>
           <div className='navigation-1'>
             <ul>

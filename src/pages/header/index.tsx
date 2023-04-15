@@ -1,13 +1,13 @@
 import { ContainerHeader, ContentHeader, MenuNavigation } from './styles';
 import { CustomButton } from '../../components/custom-button';
 import { Link } from 'react-router-dom';
+import { Logo } from '../../components/logo';
 
 export function Header() {
   return (
     <ContainerHeader>
       <ContentHeader>
-        <h1>Seja Luz</h1>
-
+          <Logo />
         <MenuNavigation>
           <ul>
             <li>
