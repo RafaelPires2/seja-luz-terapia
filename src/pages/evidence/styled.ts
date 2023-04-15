@@ -7,4 +7,10 @@ export const ContainerEvidence = styled.div`
     button {
         margin-top: ${props => props.theme.margin};
     }
+
+    h1 {
+        font-style: italic;
+        color: ${props => props.theme.bgButton};
+        margin-bottom: ${props => props.theme.margin};
+    }
 `;
