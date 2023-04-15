@@ -17,4 +17,10 @@ export const ContainerCardService = styled.div`
   button {
     margin-top: 32px;
   }
+
+  h1 {
+        font-style: italic;
+        color: ${props => props.theme.bgButton};
+        margin-bottom: ${props => props.theme.margin};
+    }
 `;

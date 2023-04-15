@@ -22,12 +22,12 @@ export const MenuNavigation = styled.nav`
     gap: 30px;
     font-size: 1.6rem;
     font-weight: 600;
-    color: #000000A1;
   }
-
-  a:hover {
-    transition: 0.3s;
+  a {
     color: ${(props) => props.theme.bgButton};
-    font-weight: 600;
+
+    :hover {
+      color: ${(props) => props.theme.bgButtonHover};
+    }
   }
 `;

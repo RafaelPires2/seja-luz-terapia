@@ -15,7 +15,7 @@ export const CardServiceContent = styled.div`
   align-items: start;
   width: 100%;
 
-  min-height: 450px;
+  min-height: 500px;
   background-color: white;
   border-radius: 6px;
   border-top-left-radius: 40px;
