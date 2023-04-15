@@ -1,5 +1,6 @@
 import { ContainerHeader, ContentHeader, MenuNavigation } from './styles';
 import { CustomButton } from '../../components/custom-button';
+import { Link } from 'react-router-dom';
 
 export function Header() {
   return (
@@ -10,20 +11,23 @@ export function Header() {
         <MenuNavigation>
           <ul>
             <li>
-              <a href='#'>INÍCIO</a>
+              <a href='#home'>INÍCIO</a>
             </li>
             <li>
-              <a href='#'>SERVIÇOS</a>
+              <a href='#services'>SERVIÇOS</a>
             </li>
             <li>
-              <a href='#'>DEPOIMENTOS</a>
+              <a href='#testimonials'>DEPOIMENTOS</a>
             </li>
             <li>
-              <a href='#'>CONTATOS</a>
+              <a href='#footer'>CONTATO</a>
             </li>
           </ul>
         </MenuNavigation>
-        <CustomButton content='CONTATO' height='45' width='150' type='button' textColor='white' />
+
+        <Link to='https://wa.me/5511939501435?text=Oi,%20seja%20bem-vinda!%20Como%20eu%20posso%20ajudar?' target='_blank'>
+          <CustomButton content='RESERVAR SESSÃO' height='45' width='200' type='button' textColor='white' />
+        </Link>
       </ContentHeader>
     </ContainerHeader>
   );

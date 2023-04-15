@@ -1,14 +1,18 @@
-import { CardService } from "../../components/card-service";
-import { ContainerCards,  } from "../../components/card-service/styles";
-import { CustomButton } from "../../components/custom-button";
-import { ContainerCardService, SectionCardService } from "./styles";
+import { Link } from 'react-router-dom';
+import { CardService } from '../../components/card-service';
+import { ContainerCards } from '../../components/card-service/styles';
+import { CustomButton } from '../../components/custom-button';
+import { Title } from '../../styles/themes/global';
+import { ContainerCardService, SectionCardService } from './styles';
 
 export function Services() {
-    return (
-      <SectionCardService>
+  return (
+    <SectionCardService id='services'>
       <ContainerCardService>
+        <Title>Serviços</Title>
         <ContainerCards>
           <CardService
+            id='CSF'
             image={'src/styles/assets/tree.png'}
             title={'Constelação Sistêmica Familiar'}
             description={
@@ -16,6 +20,7 @@ export function Services() {
             }
           />
           <CardService
+            id='SRMH'
             image={'src/styles/assets/reiki.webp'}
             title={'Shamballa Reiki Multidimensional Healind'}
             description={
@@ -23,6 +28,7 @@ export function Services() {
             }
           />
           <CardService
+            id='TCT'
             image={'src/styles/assets/terapia.webp'}
             title={'Terapia Criativa Transpessoal'}
             description={
@@ -32,6 +38,7 @@ export function Services() {
         </ContainerCards>
         <ContainerCards>
           <CardService
+            id='Taro'
             image={'src/styles/assets/taro.webp'}
             title={'Tarô'}
             description={
@@ -39,11 +46,13 @@ export function Services() {
             }
           />
           <CardService
+            id='MD'
             image={'src/styles/assets/despertar.webp'}
             title={'Mesa do Despertar '}
             description={'A mesa analisa os seguintes áreas da vida: Financeiro, Relacionamento, Profissional, Saúde Emocional e etc.'}
           />
           <CardService
+            id='RA'
             image={'src/styles/assets/akashicos.webp'}
             title={'Registros Akashicos'}
             description={
@@ -51,8 +60,11 @@ export function Services() {
             }
           />
         </ContainerCards>
-        <CustomButton content='AGENDAR CONSULTA' height='58' width='290' type='button' textColor='white' />
+
+        <Link to='https://wa.me/5511939501435?text=Oi,%20seja%20bem-vinda!%20Como%20eu%20posso%20ajudar?' target='_blank'>
+          <CustomButton content='Equilíbrio e Bem-estar. Agendar minha Sessão' height='58' width='400' type='button' textColor='white' />
+        </Link>
       </ContainerCardService>
     </SectionCardService>
-    );
-  }
+  );
+}
