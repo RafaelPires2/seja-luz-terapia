@@ -1,5 +1,15 @@
 import { ButtonHTMLAttributes } from 'react';
-import styled from 'styled-components';
+import styled, { keyframes } from 'styled-components';
+
+
+const scaleButton = keyframes`
+  0%, 100% {
+    scale: 1;
+  }
+  50% {
+    scale: 1.1;
+  }  
+`;
 
 type ButtonType = ButtonHTMLAttributes<HTMLButtonElement>;
 
@@ -26,8 +36,11 @@ export const ButtonContainer = styled.button<ButtonContainerProps>`
   font-weight: 600;
   padding: 1rem;
   cursor: pointer;
+  animation: ${scaleButton} 4s linear infinite;
 
   :hover {
     background-color: ${(props) => props.theme.bgButtonHover};
   }
 `;
+
+

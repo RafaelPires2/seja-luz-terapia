@@ -16,16 +16,15 @@ export const GlobalStyle = createGlobalStyle`
 
     html{
     scroll-behavior: smooth;
-   // color: white;
-   // overflow-x: hidden;
+    overflow-x: hidden;
     }
 
     ::-webkit-scrollbar{
     width: 10px;
-    // background-color: $background-primary;
+    background-color: ${props => props.theme.bgSecondary};
     }
     ::-webkit-scrollbar-thumb{
-   //     background-color: $color-point;
+        background-color: ${props => props.theme.bgButton};
         border-radius: 2rem; 
 }
 
@@ -43,6 +42,8 @@ export const GlobalStyle = createGlobalStyle`
         align-items: center;
         background-color: ${(props) => props.theme.bgPrimary};
     }
+
+   
 `;
 
 export const Wrapper = styled.main`
@@ -62,3 +63,5 @@ export const Paragraph = styled.p`
   font-size: ${(props) => props.theme.sizeParagraph};
   color: ${(props) => props.theme.colorParagraph};
 `;
+
+
