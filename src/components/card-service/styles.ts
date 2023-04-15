@@ -4,7 +4,7 @@ export const ContainerCards = styled.div`
   display: flex;
   width: 100%;
   justify-content: center;
-  align-items: center;  
+  align-items: center;
   gap: 3%;
   margin-bottom: 32px;
 `;
@@ -27,7 +27,7 @@ export const CardServiceContent = styled.div`
     height: 200px;
     border-top-left-radius: 40px;
     border-top-right-radius: 6px;
-    border-bottom: 1px solid #ccc; 
+    border-bottom: 1px solid #ccc;
   }
   div {
     padding: 24px 20px;
@@ -43,5 +43,14 @@ export const CardServiceContent = styled.div`
     color: ${(props) => props.theme.colorTitle};
     font-size: 16px;
     line-height: 1.3;
+  }
+
+  @media only screen and (max-width: 1024px) {
+    div {
+      padding: 12px 20px;
+    }
+    p {
+      font-size: 15px;
+    }
   }
 `;

@@ -13,7 +13,7 @@ export const ContentFooter = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 60vw;
+  width: 80vw;
   padding-block: 60px;
 
   ul {
@@ -39,5 +39,13 @@ export const ContentFooter = styled.div`
   .container-icons {
     display: flex;
     gap: 16px;
+  }
+
+  @media only screen and (min-width: 1920px) {
+    width: 60vw;
+  }
+
+  @media only screen and (max-width: 1024px) {
+    width: 90vw;
   }
 `;

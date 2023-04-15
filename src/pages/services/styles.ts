@@ -12,7 +12,7 @@ export const ContainerCardService = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 60vw;
+  width: 80vw;
 
   button {
     margin-top: 32px;
@@ -23,4 +23,11 @@ export const ContainerCardService = styled.div`
         color: ${props => props.theme.bgButton};
         margin-bottom: ${props => props.theme.margin};
     }
+
+    @media only screen and (min-width: 1920px) {
+      width: 60vw;  
+}
+@media only screen and (max-width: 1024px) {
+    width: 90vw;
+  }
 `;

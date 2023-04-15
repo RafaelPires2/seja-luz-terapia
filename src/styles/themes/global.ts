@@ -47,11 +47,19 @@ export const GlobalStyle = createGlobalStyle`
 `;
 
 export const Wrapper = styled.main`
-  width: 60vw;
+  width: 80vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  
+  @media only screen and (min-width: 1920px) {
+      width: 60vw;  
+}
+@media only screen and (max-width: 1024px) {
+    width: 90vw;
+  }
 `;
 
 export const Title = styled.h1`
