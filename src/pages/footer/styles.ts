@@ -48,4 +48,18 @@ export const ContentFooter = styled.div`
   @media only screen and (max-width: 1024px) {
     width: 90vw;
   }
+
+  @media only screen and (max-width: 768px) {
+    li {
+      font-size: 16px;
+    }
+  }
+
+  @media only screen and (max-width: 425px) {
+    flex-direction: column;
+
+    .container-navigation {
+    margin-block: 32px;
+  }
+  }
 `;

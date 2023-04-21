@@ -7,6 +7,11 @@ export const ContainerCards = styled.div`
   align-items: center;
   gap: 3%;
   margin-bottom: 32px;
+
+  @media only screen and (max-width: 425px) {
+    flex-direction: column;
+    margin-bottom: 0;
+  }
 `;
 
 export const CardServiceContent = styled.div`
@@ -51,6 +56,43 @@ export const CardServiceContent = styled.div`
     }
     p {
       font-size: 15px;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    min-height: 470px;
+
+    div {
+      padding: 8px 20px;
+    }
+    h2 {
+      font-size: 18px;
+    }
+    p {
+      font-size: 14px;
+    }
+
+    img {
+      height: 150px;
+    }
+  }
+
+  @media only screen and (max-width: 425px) {
+    min-height: 370px;
+    margin-bottom: 32px;
+
+    div {
+      padding: 20px 20px;
+    }
+    h2 {
+      font-size: 22px;
+    }
+    p {
+      font-size: 16px;
+    }
+
+    img {
+      height: 200px;
     }
   }
 `;

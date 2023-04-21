@@ -16,11 +16,16 @@ export const ContentHeader = styled.div`
   align-items: center;
 
   @media only screen and (min-width: 1920px) {
-      width: 60vw;  
-}
+    width: 60vw;
+  }
 
-@media only screen and (max-width: 1024px) {
+  @media only screen and (max-width: 1024px) {
     width: 90vw;
+  }
+  @media only screen and (max-width: 769px) {
+    button {
+      width: 150px;
+    }
   }
 `;
 
@@ -38,4 +43,6 @@ export const MenuNavigation = styled.nav`
       color: ${(props) => props.theme.bgButtonHover};
     }
   }
+
+ 
 `;

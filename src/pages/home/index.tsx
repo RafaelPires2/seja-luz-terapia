@@ -21,7 +21,7 @@ export function Home() {
               <CustomButton content='AGENDAR AGORA' height='58' width='290' type='button' textColor='white' />
             </Link>
           </ContentA>
-
+    
           <ContentB>
             <div className='container-img'>
             <img src='src/styles/assets/valeria1.png' alt='' />
