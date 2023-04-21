@@ -7,13 +7,40 @@ import { Services } from './pages/services';
 import { Testimonials } from './pages/evidence';
 import { Footer } from './pages/footer';
 import { BrowserRouter } from 'react-router-dom';
+import { MenuMobile } from './components/modal-menu';
+import { useState, useEffect } from 'react';
+import { HeaderMobile } from './components/header-mobile';
 
 export function App() {
+  const [isDesktop, setIsDesktop] = useState(false);
+  const [menuMobileIsOpen, setMenuMobileIsOpen] = useState(false);
+
+  useEffect(() => {
+    const handleResize = () => {
+      const screenWidth = window.innerWidth;
+      console.log(screenWidth);
+      setIsDesktop(screenWidth > 768);
+    };
+
+    window.addEventListener('resize', handleResize);
+
+    handleResize();
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
+
+  function handleOpenAndCloseMenuMobile() {
+    setMenuMobileIsOpen(!menuMobileIsOpen);
+  }
+
   return (
     <ThemeProvider theme={MyTheme}>
       <BrowserRouter>
         <Wrapper>
-          <Header />
+          {menuMobileIsOpen && <MenuMobile handleOpenAndCloseMenuMobile={handleOpenAndCloseMenuMobile} />}
+          {isDesktop ? <Header /> : <HeaderMobile handleOpenAndCloseMenuMobile={handleOpenAndCloseMenuMobile} />}
           <Home />
           <Services />
           <Testimonials />

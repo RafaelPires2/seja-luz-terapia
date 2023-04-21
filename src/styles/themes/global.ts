@@ -21,10 +21,10 @@ export const GlobalStyle = createGlobalStyle`
 
     ::-webkit-scrollbar{
     width: 10px;
-    background-color: ${props => props.theme.bgSecondary};
+    background-color: ${(props) => props.theme.bgSecondary};
     }
     ::-webkit-scrollbar-thumb{
-        background-color: ${props => props.theme.bgButton};
+        background-color: ${(props) => props.theme.bgButton};
         border-radius: 2rem; 
 }
 
@@ -53,13 +53,13 @@ export const Wrapper = styled.main`
   justify-content: center;
   align-items: center;
 
-  
   @media only screen and (min-width: 1920px) {
-      width: 60vw;  
-}
-@media only screen and (max-width: 1024px) {
+    width: 60vw;
+  }
+  @media only screen and (max-width: 1024px) {
     width: 90vw;
   }
+
 `;
 
 export const Title = styled.h1`
@@ -71,5 +71,3 @@ export const Paragraph = styled.p`
   font-size: ${(props) => props.theme.sizeParagraph};
   color: ${(props) => props.theme.colorParagraph};
 `;
-
-
