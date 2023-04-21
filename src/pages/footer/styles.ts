@@ -59,7 +59,7 @@ export const ContentFooter = styled.div`
     flex-direction: column;
 
     .container-navigation {
-    margin-block: 32px;
-  }
+      margin-block: 32px;
+    }
   }
 `;

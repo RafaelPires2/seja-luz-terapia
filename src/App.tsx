@@ -18,7 +18,6 @@ export function App() {
   useEffect(() => {
     const handleResize = () => {
       const screenWidth = window.innerWidth;
-      console.log(screenWidth);
       setIsDesktop(screenWidth > 768);
     };
 

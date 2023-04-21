@@ -1,9 +1,7 @@
-import { ContainerHeader } from '../../pages/header/styles';
 import { Wrapper } from '../../styles/themes/global';
 import { Logo } from '../logo';
 import { HiOutlineMenu } from 'react-icons/hi';
 import { ContainerHeaderMobile } from './styles';
-
 export interface HeaderMobileProps {
   handleOpenAndCloseMenuMobile: () => void;
 }

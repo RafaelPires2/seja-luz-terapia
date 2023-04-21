@@ -94,8 +94,6 @@ export const ContentB = styled.aside`
 
     @media only screen and (max-width: 425px) {
       width: 100%;
-      
-      
     }
   }
 `;

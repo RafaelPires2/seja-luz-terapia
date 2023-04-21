@@ -4,11 +4,10 @@ import { Link } from 'react-router-dom';
 import { Logo } from '../../components/logo';
 
 export function Header() {
-  
   return (
     <ContainerHeader>
       <ContentHeader>
-          <Logo />
+        <Logo />
         <MenuNavigation>
           <ul>
             <li>

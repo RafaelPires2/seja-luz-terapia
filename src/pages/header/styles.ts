@@ -43,6 +43,4 @@ export const MenuNavigation = styled.nav`
       color: ${(props) => props.theme.bgButtonHover};
     }
   }
-
- 
 `;

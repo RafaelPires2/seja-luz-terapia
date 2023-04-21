@@ -1,10 +1,10 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const ContainerLogo = styled.div`
-    width: 80px;
-    height: 80px;
+  width: 80px;
+  height: 80px;
 
-    img {
-        width: 100%;
-    }
+  img {
+    width: 100%;
+  }
 `;

@@ -1,7 +1,6 @@
 import { ButtonHTMLAttributes } from 'react';
 import styled, { keyframes } from 'styled-components';
 
-
 const scaleButton = keyframes`
   0%, 100% {
     scale: 1;
@@ -42,5 +41,3 @@ export const ButtonContainer = styled.button<ButtonContainerProps>`
     background-color: ${(props) => props.theme.bgButtonHover};
   }
 `;
-
-
