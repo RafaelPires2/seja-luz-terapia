@@ -21,11 +21,10 @@ export function Home() {
               <CustomButton content='AGENDAR AGORA' height='58' width='290' type='button' textColor='white' />
             </Link>
           </ContentA>
-    
+
           <ContentB>
             <div className='container-img'>
-            <img src='src/styles/assets/valeria1.png' alt='' />
-
+              <img src='https://live.staticflickr.com/65535/52832995537_962746f4d2_b.jpg' alt='' />
             </div>
           </ContentB>
         </ContentHome>

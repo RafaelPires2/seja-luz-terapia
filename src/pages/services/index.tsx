@@ -13,7 +13,7 @@ export function Services() {
         <ContainerCards>
           <CardService
             id='CSF'
-            image={'src/styles/assets/tree.png'}
+            image={'https://live.staticflickr.com/65535/52833742684_c41230799a_w.jpg'}
             title={'Constelação Sistêmica Familiar'}
             description={
               'A Constelação Familiar Sistêmica é bem mais que uma ferramenta terapêutica. É uma filosofia/sabedoria da vida é para vida. É um processo terapêutico breve, ou seja, uma seção em grupo ou individual e focada em uma questão, dificuldade ou problema pessoal, como por ex: ansiedade, medos, dificuldades nas áreas da vida.'
@@ -21,7 +21,7 @@ export function Services() {
           />
           <CardService
             id='SRMH'
-            image={'src/styles/assets/reiki.webp'}
+            image={'https://live.staticflickr.com/65535/52833967020_581526de8a_c.jpg'}
             title={'Shamballa Reiki Multidimensional Healind'}
             description={
               'É uma terapia alternativa e complementar, tem como objetivo principal o alinhamento dos chakra e das energias yin e yang, ela ajuda no tratamento de desequilíbrios no campo físico, mental, emocional e espiritual. '
@@ -29,7 +29,7 @@ export function Services() {
           />
           <CardService
             id='TCT'
-            image={'src/styles/assets/terapia.webp'}
+            image={'https://live.staticflickr.com/65535/52833742589_e9d5956a03_z.jpg'}
             title={'Terapia Criativa Transpessoal'}
             description={
               'É uma técnica que reúne elementos das mais variadas abordagens terapêuticas. Essa ferramenta trata em conjunto os aspectos físicos, emocionais, mentais e espirituais.'
@@ -39,7 +39,7 @@ export function Services() {
         <ContainerCards>
           <CardService
             id='Taro'
-            image={'src/styles/assets/taro.webp'}
+            image={'https://live.staticflickr.com/65535/52832995472_72d024bf38_z.jpg'}
             title={'Tarô'}
             description={
               'O Tarô é uma ferramenta/oráculo, composta por 78 cartas. Auxilia no autoconhecimento, direciona em decisões e pode ser usado nos aconselhamentos na leitura do tarô terapêutico.'
@@ -47,13 +47,13 @@ export function Services() {
           />
           <CardService
             id='MD'
-            image={'src/styles/assets/despertar.webp'}
+            image={'https://live.staticflickr.com/65535/52834012223_b955b86347_c.jpg'}
             title={'Mesa do Despertar '}
             description={'A mesa analisa os seguintes áreas da vida: Financeiro, Relacionamento, Profissional, Saúde Emocional e etc.'}
           />
           <CardService
             id='RA'
-            image={'src/styles/assets/akashicos.webp'}
+            image={'https://live.staticflickr.com/65535/52832995512_589835679b_z.jpg'}
             title={'Registros Akashicos'}
             description={
               'É a leitura do seu livro da alma, onde estão armazenados informações de suas emoções, ações, potenciais, aprendizados que sua alma acumulou durante várias experiências de vida.'
