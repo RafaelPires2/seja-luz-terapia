@@ -18,23 +18,23 @@ export const ContainerEvidence = styled.div`
     display: flex;
     justify-content: center;
   }
-
+  button[type='button'] {
+    width: 100%;
+  }
+  
   @media only screen and (max-width: 425px) {
     flex-direction: column;
+    align-items: start;
+    
+    h1 {
+      font-size: 40px;
+      margin-bottom: 32px;
+    }
 
     .container-navigation {
       margin-block: 32px;
     }
   }
-  button[type='button'] {
-    width: 100%;
-  }
 
-  @media only screen and (max-width: 425px) {
-    align-items: start;
-
-    h1 {
-        font-size: 40px;
-    }
-  }
+ 
 `;

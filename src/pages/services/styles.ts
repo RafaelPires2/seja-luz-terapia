@@ -36,6 +36,7 @@ export const ContainerCardService = styled.div`
 
     h1 {
       font-size: 40px;
+      margin-bottom: 32px;
     }
 
     a {
