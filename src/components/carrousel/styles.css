@@ -4,7 +4,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 50px;
+  font-size: 5rem;
   color: #fff;
   font-weight: 500;
   height: 500px;
@@ -132,12 +132,12 @@
 }
 
 .text-profile h3 {
-  font-size: 28px;
+  font-size: 2.8rem;
   color: #CC43BF;
 }
 
 .text-profile p {
-  font-size: 16px;
+  font-size: 1.6rem;
   font-weight: 600;
   color: #00000091;
   font-style: italic;
@@ -152,7 +152,7 @@
 }
 
 .profile-description {
-  font-size: 22px;
+  font-size: 2.2rem;
   font-style: italic;
   font-weight: 500;
   line-height: 1.3;
@@ -168,7 +168,7 @@
 @media only screen and (max-width: 1024px) {
 
   .profile-description {
-    font-size: 20px;
+    font-size: 2rem;
   }
 
   .carrousel-wrapper .navigation-wrapper {
@@ -178,35 +178,35 @@
 
 @media only screen and (max-width: 768px) {
   .profile-description {
-    font-size: 18px;
+    font-size: 1.8rem;
   }
 }
 
 @media only screen and (max-width: 768px) {
   .profile-description {
-    font-size: 16px;
+    font-size: 1.6rem;
   }
 
   .text-profile p {
-    font-size: 14px;
+    font-size: 1.4rem;
   }
 
   .text-profile h3 {
-    font-size: 22px;
+    font-size: 2.2rem;
   }
 }
 
 @media only screen and (max-width: 375px) {
   .profile-description {
-    font-size: 16px;
+    font-size: 1.6rem;
   }
 
   .text-profile p {
-    font-size: 12px;
+    font-size: 1.2rem;
   }
 
   .text-profile h3 {
-    font-size: 18px;
+    font-size: 1.8rem;
   }
 
   .container-profile {

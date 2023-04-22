@@ -27,7 +27,7 @@ export const ContainerEvidence = styled.div`
     align-items: start;
     
     h1 {
-      font-size: 40px;
+      font-size: 4rem;
       margin-bottom: 32px;
     }
 

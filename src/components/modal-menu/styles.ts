@@ -14,7 +14,7 @@ export const ContainerMenuMobile = styled.div`
 
   ul {
     flex-direction: column;
-    font-size: 22px;
+    font-size: 2.2rem;
     margin-bottom: 36px;
   }
 

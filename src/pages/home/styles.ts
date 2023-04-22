@@ -35,22 +35,22 @@ export const ContentA = styled.main`
   h1 {
     margin-bottom: 1.6rem;
     color: ${(props) => props.theme.bgButton};
-    font-size: 48px;
+    font-size: 4.8rem;
     font-style: italic;
   }
 
   p {
-    font-size: 20px;
+    font-size: 2rem;
     margin-bottom: 6.4rem;
   }
 
   @media only screen and (max-width: 1024px) {
     h1 {
-      font-size: 40px;
+      font-size: 4rem;
     }
 
     p {
-      font-size: 18px;
+      font-size: 1.8rem;
     }
   }
 
@@ -58,11 +58,11 @@ export const ContentA = styled.main`
     width: 100%;
 
     h1 {
-      font-size: 34px;
+      font-size: 3.4rem;
     }
 
     p {
-      font-size: 16px;
+      font-size: 1.6rem;
     }
   }
 `;

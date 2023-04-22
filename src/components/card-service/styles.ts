@@ -40,13 +40,13 @@ export const CardServiceContent = styled.div`
 
   h2 {
     color: ${(props) => props.theme.bgButton};
-    font-size: 26px;
+    font-size: 2.6rem;
     margin-bottom: 8px;
   }
 
   p {
     color: ${(props) => props.theme.colorTitle};
-    font-size: 16px;
+    font-size: 1.6rem;
     line-height: 1.3;
   }
 
@@ -55,7 +55,7 @@ export const CardServiceContent = styled.div`
       padding: 12px 20px;
     }
     p {
-      font-size: 15px;
+      font-size: 1.5rem;
     }
   }
 
@@ -66,10 +66,10 @@ export const CardServiceContent = styled.div`
       padding: 8px 20px;
     }
     h2 {
-      font-size: 18px;
+      font-size: 1.8rem;
     }
     p {
-      font-size: 14px;
+      font-size: 1.4rem;
     }
 
     img {
@@ -85,10 +85,10 @@ export const CardServiceContent = styled.div`
       padding: 20px 20px;
     }
     h2 {
-      font-size: 22px;
+      font-size: 2.2rem;
     }
     p {
-      font-size: 16px;
+      font-size: 1.6rem;
     }
 
     img {

@@ -23,7 +23,7 @@ export const ContentFooter = styled.div`
   }
   li {
     display: flex;
-    font-size: 18px;
+    font-size: 1.8rem;
     font-weight: 600;
     color: ${(props) => props.theme.bgButton};
 
@@ -51,7 +51,7 @@ export const ContentFooter = styled.div`
 
   @media only screen and (max-width: 768px) {
     li {
-      font-size: 16px;
+      font-size: 1.6rem;
     }
   }
 
