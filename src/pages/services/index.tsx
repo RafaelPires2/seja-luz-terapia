@@ -13,7 +13,7 @@ export function Services() {
         <ContainerCards>
           <CardService
             id='CSF'
-            image='./src/assets/tree.png'
+            image='/tree.png'
             title={'Constelação Sistêmica Familiar'}
             alt='Constelação Sistêmica Familiar'
             description={
@@ -22,7 +22,7 @@ export function Services() {
           />
           <CardService
             id='SRMH'
-            image='./src/assets/reike.webp'
+            image='/reike.webp'
             alt='Shamballa Reiki Multidimensional Healind'
             title={'Shamballa Reiki Multidimensional Healind'}
             description={
@@ -31,7 +31,7 @@ export function Services() {
           />
           <CardService
             id='TCT'
-            image='./src/assets/terapia.webp'
+            image='/terapia.webp'
             alt='Terapia Criativa Transpessoal '
             title={'Terapia Criativa Transpessoal'}
             description={
@@ -43,7 +43,7 @@ export function Services() {
           <CardService
             alt='Cartas de Tarô'
             id='Taro'
-            image='./src/assets/taro.webp'
+            image='/taro.webp'
             title={'Tarô'}
             description={
               'O Tarô é uma ferramenta/oráculo, composta por 78 cartas. Auxilia no autoconhecimento, direciona em decisões e pode ser usado nos aconselhamentos na leitura do tarô terapêutico.'
@@ -52,14 +52,14 @@ export function Services() {
           <CardService
             alt='Mesa do Despertar'
             id='MD'
-            image='./src/assets/despertar.webp'
+            image='/despertar.webp'
             title={'Mesa do Despertar '}
             description={'A mesa analisa os seguintes áreas da vida: Financeiro, Relacionamento, Profissional, Saúde Emocional e etc.'}
           />
           <CardService
             id='RA'
             alt='Registros Akashicos'
-            image='./src/assets/akashicos.webp'
+            image='/akashicos.webp'
             title={'Registros Akashicos'}
             description={
               'É a leitura do seu livro da alma, onde estão armazenados informações de suas emoções, ações, potenciais, aprendizados que sua alma acumulou durante várias experiências de vida.'

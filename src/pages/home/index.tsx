@@ -24,7 +24,7 @@ export function Home() {
 
           <ContentB>
             <div className='container-img'>
-              <img src='./src/assets/perfil.webp' alt='Valéria, Taróloga, Reikiana, Consteladora e possui formação em outras terapias.' />
+              <img src='/perfil.webp' alt='Valéria, Taróloga, Reikiana, Consteladora e possui formação em outras terapias.' />
             </div>
           </ContentB>
         </ContentHome>
