@@ -11,7 +11,7 @@ export function Home() {
           <ContentA>
             <Title>Sobre sua terapeuta</Title>
             <Paragraph>
-              Me chamo Valéria, moro em São Paulo. Sou funcionária pública á 27 anos e ao longo da minha caminhada, escolhi especializar-me
+              Me chamo Valéria, moro em São Paulo. Sou funcionária pública há 27 anos, formada em empreendedorismo e ao longo da minha caminhada, escolhi especializar-me
               em Terapia Holística. Sou Taróloga, Reikiana, Consteladora e possuo formação em outras terapias. Acredito que estamos aptos
               para sempre buscarmos novos conhecimentos, a fim de termos mais ferramentas para poder auxiliar aqueles que necessitam. Minha
               meta é ter uma vida mais leve e cheia de luz!
