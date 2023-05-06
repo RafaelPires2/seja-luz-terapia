@@ -37,11 +37,11 @@ export function Footer() {
           </div>
         </div>
         <div className='container-icons'>
-          <Link to='https://wa.me/5511939501435?text=Oi,%20seja%20bem-vinda!%20Como%20eu%20posso%20ajudar?' target='_blank'>
+          <Link to='https://wa.me/5511939501435?text=Oi,%20seja%20bem-vinda!%20Como%20eu%20posso%20ajudar?' target='_blank' aria-label='Icone do Whattsapp, que leva para o whattsapp assim podendo ter mais informações.'>
             <BsWhatsapp size={32} color={'#CC43BF'} cursor={'pointer'} />
           </Link>
 
-          <Link to='https://www.instagram.com/seja_luz_terapia/' target='_blank'>
+          <Link to='https://www.instagram.com/seja_luz_terapia/' target='_blank' aria-label='Icone do Instagram, que leva para o site instagram'>
             <BsInstagram size={32} color={'#CC43BF'} cursor={'pointer'} />
           </Link>
         </div>

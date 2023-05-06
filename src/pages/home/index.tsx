@@ -18,13 +18,13 @@ export function Home() {
             </Paragraph>
 
             <Link to='https://wa.me/5511939501435?text=Oi,%20seja%20bem-vinda!%20Como%20eu%20posso%20ajudar?' target='_blank'>
-              <CustomButton content='AGENDAR AGORA' height='58' width='290' type='button' textColor='white' />
+              <CustomButton content='ATENDIMENTO ONLINE' height='58' width='290' type='button' textColor='white' aria-label='Botão que leva para o whattsapp. Podendo assim ter mais informações.'/>
             </Link>
           </ContentA>
 
           <ContentB>
             <div className='container-img'>
-              <img src='https://live.staticflickr.com/65535/52832995537_962746f4d2_b.jpg' alt='' />
+              <img src='./src/assets/perfil.webp' alt='Valéria, Taróloga, Reikiana, Consteladora e possui formação em outras terapias.' />
             </div>
           </ContentB>
         </ContentHome>

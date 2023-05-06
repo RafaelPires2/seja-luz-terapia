@@ -26,7 +26,7 @@ export function Header() {
         </MenuNavigation>
 
         <Link to='https://wa.me/5511939501435?text=Oi,%20seja%20bem-vinda!%20Como%20eu%20posso%20ajudar?' target='_blank'>
-          <CustomButton content='RESERVAR SESSÃO' height='45' width='200' type='button' textColor='white' />
+          <CustomButton content='RESERVAR SESSÃO' height='45' width='200' type='button' textColor='white' aria-label='Botão que leva para o whattsapp. Podendo assim ter mais informações.'/>
         </Link>
       </ContentHeader>
     </ContainerHeader>

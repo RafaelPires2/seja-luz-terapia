@@ -6,12 +6,13 @@ interface CardServiceProps {
   title: string;
   description: string;
   id: string;
+  alt: string;
 }
 
-export function CardService({ image, title, description, id }: CardServiceProps) {
+export function CardService({ image, title, description, id, alt }: CardServiceProps) {
   return (
     <CardServiceContent id={id}>
-      <img src={image} alt='' />
+      <img src={image} alt={alt} />
       <div>
         <h2>{title}</h2>
         <p>{description}</p>

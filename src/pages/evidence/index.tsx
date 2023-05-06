@@ -12,7 +12,7 @@ export function Testimonials() {
 
       <Link to='https://wa.me/5511939501435?text=Oi,%20seja%20bem-vinda!%20Como%20eu%20posso%20ajudar?' target='_blank'>
         <CustomButton
-        
+          aria-label='Botão que leva para o whattsapp. Podendo assim ter mais informações.'
           height='58'
           type='button'
           width='500'
